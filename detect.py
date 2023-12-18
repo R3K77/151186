@@ -60,7 +60,7 @@ def detect(img_path: str) -> Dict[str, int]:
     ##results.show()
 
     # Zapisanie wyników do folderu WYNIKI jako plik .jpg
-    # results.save(save_dir='WYNIKI')
+    results.save(save_dir='WYNIKI')
 
     # Zwrócenie ilości wykrytych liści
     return {'aspen': aspen, 'birch': birch, 'hazel': hazel, 'maple': maple, 'oak': oak}
