@@ -1,0 +1,2 @@
+huggingface-hub==0.19.4 
+yolov7detect==1.0.1
