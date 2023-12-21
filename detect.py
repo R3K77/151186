@@ -8,8 +8,8 @@ import yolov7
 model = yolov7.load('151186_model_wykrywanie_lisci.pt')
 
 # set model parameters
-model.conf = 0.50  # NMS confidence threshold
-model.iou = 0.10  # NMS IoU threshold
+model.conf = 0.75  # NMS confidence threshold
+model.iou = 0.35  # NMS IoU threshold
 model.classes = None  # (optional list) filter by class
 
 
